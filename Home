@@ -1,0 +1,11 @@
+// $("#main").append("Femi");
+// [string].replace([old],[new])
+var email = "me@microsoft.com";
+var newEmail = email.replace("microsoft","gmail");
+console.log(email);
+console.log(newEmail);
+
+
+var awesomeThoughts = "I am femi and am awesome";
+var funThoughts = awesomeThoughts.replace("awesome","fun");
+
