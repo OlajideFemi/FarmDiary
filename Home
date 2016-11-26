@@ -9,3 +9,4 @@ console.log(newEmail);
 var awesomeThoughts = "I am femi and am awesome";
 var funThoughts = awesomeThoughts.replace("awesome","fun");
 
+$("main").append(funThoughts);
