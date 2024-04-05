@@ -1,2 +1,2 @@
 # FarmDiary
-main contain for project FarmDiary
+main content for project FarmDiary
