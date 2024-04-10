@@ -1,0 +1,13 @@
+private void RegBtnActionPerformed(java.awt.event.ActionEvent evt) {
+    String name = nameField.getText();
+    String surname = surnameField.getText();
+    String balanceText = balanceField.getText();
+    String officerId = officerField.getText();
+    
+    // Checking if any of the fields are empty
+    if (name.isEmpty() || surname.isEmpty() || balanceText.isEmpty() || officerId.isEmpty()) {
+        JOptionPane.showMessageDialog(null, "Please enter all fields", "Warning", JOptionPane.WARNING_MESSAGE);
+    } else {
+        // All fields are filled, i can proceed with further actions here
+    }
+}
